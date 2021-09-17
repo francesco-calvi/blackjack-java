@@ -9,13 +9,6 @@ public class Mano {
 	public void aggiungi(Carta carta) {
 		mano.add(carta);
 	}
-	
-	public String getMano() {
-		String ris = "";
-		for(int i = 0; i < mano.size(); i++)
-			ris += mano.get(i).scheda() + "\n";		
-		return ris;
-	}
 
 	@Override
 	public String toString() {

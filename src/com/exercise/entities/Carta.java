@@ -7,11 +7,6 @@ public class Carta {
     private int valore;
     private String seme;
 
-    public Carta(String nome, int valore, String seme) {
-        this.valore = valore;
-        this.seme = seme;
-    }
-
     public Carta() {}
 
     public String getNome() {
